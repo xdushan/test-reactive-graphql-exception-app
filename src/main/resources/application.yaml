@@ -1,0 +1,18 @@
+server:
+  port: 8085
+
+spring:
+  graphql:
+    schema:
+      printer:
+        enabled: true
+    graphiql:
+      enabled: true
+
+logging:
+  level:
+    com:
+      zyntaxmind:
+        reactive:
+          graphql:
+            exception: DEBUG
